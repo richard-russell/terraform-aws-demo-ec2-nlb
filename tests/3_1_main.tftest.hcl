@@ -4,6 +4,11 @@
 variables {
   service_name = "test-service"
   env = "test-env"
+  aws_default_tags = {
+    owner       = "lentil"
+    terraformed = "Do not edit manually."
+    origin      = "terraform test"
+  }
 }
 
 run "integration" {

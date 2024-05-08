@@ -158,8 +158,8 @@ check "response" {
     insecure = true
 
     retry {
-      attempts     = 100
-      max_delay_ms = 10000
+      attempts     = 180
+      max_delay_ms = 1000
       min_delay_ms = 1000
     }
   }
